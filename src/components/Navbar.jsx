@@ -79,12 +79,17 @@ export default function Navbar() {
                 <Link to="/" style={{ textDecoration: 'none',color:"black" }}>
 
 
-                    <Logo>LAMA.</Logo>
+                    <Logo>Fateh.</Logo>
 </Link>
                 </Center>
                 <Right>
+                    <Link to='/register' style={{ textDecoration: 'none',color:"black" }}>
                     <MenuItem>Register</MenuItem>
-                    <MenuItem>Login</MenuItem>
+                    </Link>
+                    <Link to='/login' style={{ textDecoration: 'none',color:"black" }}>
+                    <MenuItem>login</MenuItem>
+                    </Link>
+                    
                     <MenuItem>
                         <Link to="/cart" style={{ textDecoration: 'none',color:"black" }}>
 

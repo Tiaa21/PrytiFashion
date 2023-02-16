@@ -87,7 +87,7 @@ export default function ProductList() {
           <FilterText>
             Sort Products: 
             <Select onChange={(e)=>setSort(e.target.value)}>
-            <Option disabled selected>Sort By</Option>
+            {/* <Option disabled selected>Sort By</Option> */}
             <Option value="newest">Newest</Option>
             <Option  value="asc">Price(from low to high)</Option>
             <Option  value="desc">Price(from high to low)</Option>

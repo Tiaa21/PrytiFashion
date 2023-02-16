@@ -15,7 +15,7 @@ export default function Products({ cat, filters, sort }) {
   useEffect(() => {
     const getProducts=async()=>{
       try {
-        const res=await axios.get("../data")
+        const res=await axios.get("../data.")
         console.log(res);
       } catch (err) {
         

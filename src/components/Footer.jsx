@@ -76,7 +76,7 @@ export default function Footer() {
   return (
     <Container>
         <Left>
-            <Logo>LAMA.</Logo>
+            <Logo>Fateh.</Logo>
             <Desc>There are many Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, porro ducimus! Iste cumque rem beatae delectus sequi ex inventore soluta cum explicabo veniam sed nam odio, maxime amet architecto repellendus libero sunt, aut eum.</Desc>
             <SocialContainer>
                 <SocialIcon>
