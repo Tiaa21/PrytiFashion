@@ -96,7 +96,6 @@ export default function ProductList() {
         </Filter>
       </FilterContainer>
       <Products cat={cat} filters={filter} sort={sort} />
-      <NewsLetter />
       <Footer />
     </Container>
   )

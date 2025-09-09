@@ -18,7 +18,6 @@ export default function Home() {
             <Slider/>
             <Categories/>
             <Products/>
-            <NewsLetter/>
             <Footer/>
         </div>
     )

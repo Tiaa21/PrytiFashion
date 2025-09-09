@@ -76,7 +76,7 @@ export default function Footer() {
   return (
     <Container>
         <Left>
-            <Logo>Fateh.</Logo>
+            <Logo>Pryti Fashion</Logo>
             <Desc>There are many Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, porro ducimus! Iste cumque rem beatae delectus sequi ex inventore soluta cum explicabo veniam sed nam odio, maxime amet architecto repellendus libero sunt, aut eum.</Desc>
             <SocialContainer>
                 <SocialIcon>
@@ -101,11 +101,6 @@ export default function Footer() {
                 <ListItems>Men's Fashion</ListItems>
                 <ListItems>Women's Fashion</ListItems>
                 <ListItems>Accessories</ListItems>
-                <ListItems>My Account</ListItems>
-                <ListItems>Order Tracking</ListItems>
-                <ListItems>Wishlist</ListItems>
-                <ListItems>Promotion</ListItems>
-                <ListItems>Terms and Conditions</ListItems>
             </List>
         </Center>
         <Right>

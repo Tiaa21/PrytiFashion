@@ -143,7 +143,6 @@ export default function Product() {
                 </InfoContainer>
             </Wrapper>
 
-            <NewsLetter />
             <Footer />
         </Container>
     )
