@@ -7,9 +7,6 @@ import Products from '../components/Products'
 import NewsLetter from '../components/NewsLetter'
 import Footer from '../components/Footer'
 
-
-
-
 export default function Home() {
     return (
         <div>
@@ -17,7 +14,7 @@ export default function Home() {
             <Navbar />
             <Slider/>
             <Categories/>
-            <Products/>
+            <Products filters={{}} sort="newest" limit={5} />
             <Footer/>
         </div>
     )

@@ -46,7 +46,7 @@ export default function CategoryItem({ item }) {
     return (
 
         <Container>
-            <Link to={`/products/${item.cat}`}>
+            <Link to={`/products`}>
             <Image src={item.img} />
             <Info>
                 <Title>{item.title}</Title>

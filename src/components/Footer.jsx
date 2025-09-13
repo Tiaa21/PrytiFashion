@@ -12,6 +12,7 @@ import { mobile } from '../responsive';
 
 const Container=styled.div`
 display: flex;
+background-color: #faf7f3;
 ${mobile({flexDirection:"column"})}
 `
 const Left=styled.div`
@@ -77,7 +78,7 @@ export default function Footer() {
     <Container>
         <Left>
             <Logo>Pryti Fashion</Logo>
-            <Desc>There are many Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, porro ducimus! Iste cumque rem beatae delectus sequi ex inventore soluta cum explicabo veniam sed nam odio, maxime amet architecto repellendus libero sunt, aut eum.</Desc>
+            <Desc>With over 2 years of experience, we specialize in creating clothing that blends comfort, elegance, and individuality. Pryti Fashion is not just a clothing store — it’s a lifestyle brand designed for women who embrace confidence and beauty in their daily lives. Our mission is to provide high-quality, sustainable, and fashionable clothing at an affordable price.</Desc>
             <SocialContainer>
                 <SocialIcon>
                    <FacebookIcon/>
@@ -98,16 +99,15 @@ export default function Footer() {
             <List>
                 <ListItems>Home</ListItems>
                 <ListItems>Cart</ListItems>
-                <ListItems>Men's Fashion</ListItems>
                 <ListItems>Women's Fashion</ListItems>
-                <ListItems>Accessories</ListItems>
+                <ListItems>About Us</ListItems>
             </List>
         </Center>
         <Right>
             <Title>Contact</Title>
-            <ContactItem><LocationOnIcon style={{"margin-right":"10px"}}/>Room # 34, Floor # 5, Al-Barkat Plaza, Blue Area Islamabad</ContactItem>
-            <ContactItem><PhoneIcon style={{"margin-right":"10px"}}/>+92 300 1551042</ContactItem>
-            <ContactItem><EmailIcon style={{"margin-right":"10px"}}/>Fatehmehmood123@gmail.com</ContactItem>
+            <ContactItem><LocationOnIcon style={{"margin-right":"10px"}}/>Gading Serpong, Tangerang</ContactItem>
+            <ContactItem><PhoneIcon style={{"margin-right":"10px"}}/>+62 85921774621</ContactItem>
+            <ContactItem><EmailIcon style={{"margin-right":"10px"}}/>pryti.fashion@gmail.com</ContactItem>
             {/* <Payment src="https://i.ibb.co/FD4QpTX/USPayment-Methods-Klarna-JPG-1.jpg"></Payment> */}
         </Right>
     </Container>

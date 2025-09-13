@@ -1,77 +1,439 @@
 export const sliderItems = [
-    {
-      id: 1,
-      img: "https://i.ibb.co/h1NCHRQ/model-2911329-1920.jpg",
-      title: "SUMMER SALE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "f5fafd",
-    },
-    {
-      id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fcf1ed",
-    },
-    {
-      id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fbf0f4",
-    },
-  ];
+  {
+    id: 1,
+    img: "../images/home/slider1.jpg",
+    title: "SUMMER SALE",
+    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    bg: "f5fafd",
+  },
+  {
+    id: 2,
+    img: "../images/home/slider3.jpg",
+    title: "AUTUMN COLLECTION",
+    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    bg: "fcf1ed",
+  },
+  {
+    id: 3,
+    img: "../images/home/slider2.jpg",
+    title: "LOUNGEWEAR LOVE",
+    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    bg: "fbf0f4",
+  },
+];
 
-  export const categories = [
-    {
-      id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",cat:"women"
-    },
-    {
-      id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",cat:"jeans"
-    },
-    {
-      id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",cat:"coat"
-    },
-  ];
+export const categories = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    title: "SHIRT STYLE!",
+    cat: "women",
+  },
+  {
+    id: 2,
+    img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    title: "LOUNGEWEAR LOVE",
+    cat: "jeans",
+  },
+  {
+    id: 3,
+    img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    title: "LIGHT JACKETS",
+    cat: "coat",
+  },
+];
 
-  export const popularProducts = [
-    {
-      id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
-    },
-    {
-      id:2,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
-    },
-    {
-      id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
-    },
-    {
-      id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
-    },
-    {
-      id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
-    },
-    {
-      id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
-    },
-    {
-      id:7,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
-    },
-    {
-      id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
-      
-    },
-  ]
+export const popularProducts = [
+  {
+    id: 1,
+    img: "../images/products/shirt1.png",
+    title: "Vintage Tee",
+    category: "shirt",
+    color: ["white", "green", "sienna"],
+    size: ["M", "L"],
+    price: 65,
+    oldPrice: 100,
+    stock: true,
+    sku: "GHT95245AAA",
+    tags: ["Women", "Shirt", "Fashion"],
+    rating: 4.8,
+    desc: "Soft cotton vintage T-shirt for women.",
+    photos: [
+      "../images/products/shirt1_1.png",
+      "../images/products/shirt1_2.png",
+      "../images/products/shirt1_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "Kristin Watson",
+        date: "1 month ago",
+        rating: 5,
+        comment: "Love it! The fit and fabric are perfect.",
+        images: ["../images/products/shirt1_1.png"],
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    img: "../images/products/shirt2.png",
+    title: "Tied Tee",
+    category: "shirt",
+    color: ["white", "green", "sienna"],
+    size: ["M", "L"],
+    price: 55,
+    oldPrice: 80,
+    stock: true,
+    sku: "GHT95245AAA",
+    tags: ["Women", "Shirt", "Fashion"],
+    rating: 4.9,
+    desc: "Soft cotton tied T-shirt for women.",
+    photos: [
+      "../images/products/shirt2_1.png",
+      "../images/products/shirt2_2.png",
+      "../images/products/shirt2_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "Tya America",
+        date: "1 month ago",
+        rating: 5,
+        comment: "Love it! The fit and fabric are perfect.",
+        images: ["../images/products/shirt1_1.png"],
+      },
+    ],
+  },
+
+  // --- Extra Shirt 1 ---
+  {
+    id: 3,
+    img: "../images/products/shirt3.png",
+    title: "Oversized Graphic Tee",
+    category: "shirt",
+    color: ["black", "gray", "navy", "white"],
+    size: ["S", "M", "L", "XL"],
+    price: 60,
+    oldPrice: 75,
+    stock: true,
+    sku: "SHIRT-OSGT-2025",
+    tags: ["Unisex", "Shirt", "Casual"],
+    rating: 4.7,
+    desc: "Trendy oversized T-shirt with modern graphic print.",
+    photos: [
+      "../images/products/shirt3_1.png",
+      "../images/products/shirt3_2.png",
+      "../images/products/shirt3_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "David Lee",
+        date: "2 weeks ago",
+        rating: 5,
+        comment: "Super comfortable and stylish!",
+      },
+    ],
+  },
+
+  // --- Extra Shirt 2 ---
+  {
+    id: 4,
+    img: "../images/products/shirt4.png",
+    title: "Striped Linen Shirt",
+    category: "shirt",
+    color: ["beige", "blue", "white"],
+    size: ["M", "L"],
+    price: 70,
+    oldPrice: 90,
+    stock: true,
+    sku: "SHIRT-SLN-2025",
+    tags: ["Men", "Shirt", "Summer"],
+    rating: 4.5,
+    desc: "Breathable striped linen shirt for casual summer wear.",
+    photos: [
+      "../images/products/shirt4_1.png",
+      "../images/products/shirt4_2.png",
+      "../images/products/shirt4_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "Anna Smith",
+        date: "3 days ago",
+        rating: 4,
+        comment: "Great quality but runs slightly large.",
+      },
+    ],
+  },
+
+  // --- Dress 1 ---
+  {
+    id: 5,
+    img: "../images/products/dress1.png",
+    title: "Floral Summer Dress",
+    category: "dress",
+    color: ["yellow", "pink", "white"],
+    size: ["S", "M", "L"],
+    price: 85,
+    oldPrice: 120,
+    stock: true,
+    sku: "DRS-FLR-2025",
+    tags: ["Women", "Dress", "Summer"],
+    rating: 4.8,
+    desc: "Lightweight floral dress, perfect for summer outings.",
+    photos: [
+      "../images/products/dress1_1.png",
+      "../images/products/dress1_2.png",
+      "../images/products/dress1_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "Cindy Lau",
+        date: "1 week ago",
+        rating: 5,
+        comment: "Love this dress! Perfect for brunch dates.",
+        images: ["../images/products/dress1_2.png", "../images/products/dress1_3.png"],
+      },
+    ],
+  },
+
+  // --- Dress 2 ---
+  {
+    id: 6,
+    img: "../images/products/dress2.png",
+    title: "Elegant Evening Dress",
+    category: "dress",
+    color: ["red", "black"],
+    size: ["S", "M"],
+    price: 150,
+    oldPrice: 200,
+    stock: true,
+    sku: "DRS-EVD-2025",
+    tags: ["Women", "Dress", "Formal"],
+    rating: 4.9,
+    desc: "Elegant long evening dress for special occasions.",
+    photos: [
+      "../images/products/dress2_1.png",
+      "../images/products/dress2_2.png",
+      "../images/products/dress2_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "Michelle Tan",
+        date: "2 months ago",
+        rating: 5,
+        comment: "Stunning dress, feels luxurious!",
+      },
+    ],
+  },
+
+  // --- sweat ---
+  {
+    id: 7,
+    img: "../images/products/sweat1.png",
+    title: "Cozy Knit sweat",
+    category: "sweat",
+    color: ["cream", "brown", "gray"],
+    size: ["M", "L", "XL"],
+    price: 95,
+    oldPrice: 130,
+    stock: true,
+    sku: "SWT-KNT-2025",
+    tags: ["Unisex", "sweat", "Winter"],
+    rating: 4.6,
+    desc: "Warm and cozy knitted sweat for cold seasons.",
+    photos: [
+      "../images/products/sweat1_1.png",
+      "../images/products/sweat1_2.png",
+      "../images/products/sweat1_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "James Park",
+        date: "5 days ago",
+        rating: 4,
+        comment: "Very comfy, but a little bulky.",
+      },
+    ],
+  },
+
+  // --- Dress 3 ---
+  {
+    id: 8,
+    img: "../images/products/dress3.png",
+    title: "Casual Midi Dress",
+    category: "dress",
+    color: ["olive", "navy", "white"],
+    size: ["S", "M", "L"],
+    price: 78,
+    oldPrice: 110,
+    stock: true,
+    sku: "DRS-MIDI-2025",
+    tags: ["Women", "Dress", "Casual"],
+    rating: 4.7,
+    desc: "Comfortable midi dress perfect for everyday wear.",
+    photos: [
+      "../images/products/dress3_1.png",
+      "../images/products/dress3_2.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "Lina Hart",
+        date: "2 weeks ago",
+        rating: 5,
+        comment: "Love how comfy it feels!",
+      },
+    ],
+  },
+
+  // --- Dress 4 ---
+  {
+    id: 9,
+    img: "../images/products/dress4.png",
+    title: "Party Sequin Dress",
+    category: "dress",
+    color: ["black", "silver", "gold"],
+    size: ["S", "M"],
+    price: 165,
+    oldPrice: 210,
+    stock: true,
+    sku: "DRS-SEQ-2025",
+    tags: ["Women", "Dress", "Party"],
+    rating: 4.8,
+    desc: "Sparkly sequin dress to shine at every party.",
+    photos: [
+      "../images/products/dress4_1.png",
+      "../images/products/dress4_2.png",
+      "../images/products/dress4_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "Sarah J.",
+        date: "3 days ago",
+        rating: 5,
+        comment: "Wore it to a party, got so many compliments!",
+      },
+      {
+        id: 2,
+        user: "Emily Rose",
+        date: "1 week ago",
+        rating: 4,
+        comment: "Super sparkly! A bit heavy but looks amazing.",
+      },
+      {
+        id: 3,
+        user: "Cindy Wu",
+        date: "2 weeks ago",
+        rating: 5,
+        comment: "My favorite dress now, fits perfectly!",
+      },
+    ],
+  },
+
+  // --- Dress 5 ---
+  {
+    id: 10,
+    img: "../images/products/dress6.png",
+    title: "Summer Garden Dress",
+    category: "dress",
+    color: ["cream", "brown", "orange", "blue"],
+    size: ["M", "L"],
+    price: 120,
+    oldPrice: 160,
+    stock: true,
+    sku: "DRS-BOHO-2025",
+    tags: ["Women", "Dress"],
+    rating: 4.6,
+    desc: "Summer perfect dress, flowy and comfortable.",
+    photos: [
+      "../images/products/dress6_1.png",
+      "../images/products/dress6_2.png",
+      "../images/products/dress6_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "Nadia Rahman",
+        date: "1 month ago",
+        rating: 4,
+        comment: "Beautiful design, fabric could be softer.",
+      },
+    ],
+  },
+
+  // --- Hoodie (jacket1) ---
+  {
+    id: 11,
+    img: "../images/products/jacket1.png",
+    title: "Classic Hoodie",
+    category: "hoodie",
+    color: ["black", "gray", "navy", "red"],
+    size: ["M", "L", "XL"],
+    price: 85,
+    oldPrice: 120,
+    stock: true,
+    sku: "HD-CLS-2025",
+    tags: ["Unisex", "Hoodie", "Streetwear"],
+    rating: 4.7,
+    desc: "Everyday hoodie with a relaxed fit and soft fleece lining.",
+    photos: [
+      "../images/products/jacket1_1.png",
+      "../images/products/jacket1_2.png",
+      "../images/products/jacket1_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "Kevin Lau",
+        date: "5 days ago",
+        rating: 5,
+        comment: "Super cozy and stylish, I wear it almost every day!",
+      },
+      {
+        id: 2,
+        user: "Amanda Green",
+        date: "1 month ago",
+        rating: 4,
+        comment: "Great hoodie but wish the hood was a bit larger.",
+      },
+    ],
+  },
+
+  // --- Extra Shirt 3 ---
+  {
+    id: 12,
+    img: "../images/products/shirt5.png",
+    title: "Pattern Based Shirt",
+    category: "shirt",
+    color: ["red", "blue", "green"],
+    size: ["M", "L", "XL"],
+    price: 65,
+    oldPrice: 95,
+    stock: true,
+    sku: "SHIRT-PLD-2025",
+    tags: ["Unisex", "Shirt", "Winter"],
+    rating: 4.5,
+    desc: "Soft plaid flannel shirt, great for layering in cooler weather.",
+    photos: [
+      "../images/products/shirt5_1.png",
+      "../images/products/shirt5_2.png",
+      "../images/products/shirt5_3.png",
+    ],
+    reviews: [
+      {
+        id: 1,
+        user: "Daniel Kim",
+        date: "2 weeks ago",
+        rating: 4,
+        comment: "Good quality, a little thicker than expected.",
+      },
+    ],
+  },
+];

@@ -5,8 +5,11 @@ import Badge from "@mui/material/Badge";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { mobile } from "../responsive";
 import { Link } from "react-router-dom";
+
 const Container = styled.div`
+  z-index: 999;
   height: 95px;
+  background-color: #faf7f3;
   ${mobile({ height: "50px" })}
 `;
 
@@ -22,23 +25,7 @@ const Left = styled.div`
   display: flex;
   align-items: center;
 `;
-const Language = styled.span`
-  cursor: pointer;
-  font-size: 14px;
-  ${mobile({ display: "none" })}
-`;
-const SearchContainer = styled.div`
-  border: 2px solid lightgrey;
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  padding: 10px;
-  justify-content: space-between;
-`;
-const Input = styled.input`
-  border: none;
-  ${mobile({ width: "50px" })}
-`;
+
 const Logo = styled.h1`
   ${mobile({ fontSize: "25px" })}
 `;
@@ -65,10 +52,7 @@ export default function Navbar() {
     <Container>
       <Wrapper>
         <Left>
-          <SearchContainer>
-            <Input></Input>
-            <SearchIcon style={{ color: "lightgrey", fontSize: "25px" }} />
-          </SearchContainer>
+          <img src="/images/logo_trans.png" alt="logo" style={{ height: "80px" }} />
         </Left>
         <Center>
           <Link to="/" style={{ textDecoration: "none", color: "black" }}>
@@ -76,14 +60,20 @@ export default function Navbar() {
           </Link>
         </Center>
         <Right>
+          <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+            <MenuItem>Home</MenuItem>
+          </Link>
           <Link
-            to="/register"
+            to="/products"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <MenuItem>Register</MenuItem>
+            <MenuItem>Products</MenuItem>
           </Link>
-          <Link to="/login" style={{ textDecoration: "none", color: "black" }}>
-            <MenuItem>login</MenuItem>
+          <Link
+            to="/aboutus"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <MenuItem>About Us</MenuItem>
           </Link>
 
           <MenuItem>

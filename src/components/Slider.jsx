@@ -47,21 +47,30 @@ height: 100vh;
 background-color: #${props=> props.bg};
 `
 const ImgContainer = styled.div`
-flex: 1;
 height: 100%;
-display: flex;
 align-items: center;
+position: absolute;
+z-index: 0;
+width: 100vw;
 
 `
 const Image = styled.img`
-    height: 80%;
+height: 100%;
+width: 100%;
+object-fit: cover;
 `
 const InfoContainer = styled.div`
-flex: 1;
-padding: 50px;
-
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 50px;
+  z-index: 10;
+  width: 40%;
+  margin-left: auto;/
+  height: 100%;
 `
+
 const Title = styled.h1`
     font-size: 60px;
 
@@ -70,7 +79,7 @@ const Desc = styled.p`
     letter-spacing: 3px;
     font-style: 20px;
     font-weight: 500;
-    margin: 50px 0px;
+    margin: 20px 0px;
 `
 const Button = styled.button`
     padding: 13px;
@@ -98,14 +107,13 @@ export default function Slider() {
             <Wrapper slideIndex={slideIndex}>
                 {sliderItems.map((item)=>(
 
-                    <Slide bg={item.bg} >
+                <Slide bg={item.bg} >
                     <ImgContainer>
                         <Image src={item.img} alt='#' />
                     </ImgContainer>
                     <InfoContainer>
                         <Title>{item.title}</Title>
                         <Desc>{item.desc}</Desc>
-                        <Button>Shop Now</Button>
                     </InfoContainer>
                 </Slide>
                 

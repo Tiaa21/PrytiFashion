@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const Announcement = styled.div`
    height: 45px;
-   background-color :teal ;
+   background-color :#D9A299 ;
    display: flex;
    align-items: center;
    justify-content: center;
