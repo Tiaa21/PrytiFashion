@@ -4,7 +4,6 @@ import Cart from './pages/Cart';
 import Home from './pages/Home';
 import ProductDetail from './pages/ProductDetail';
 import ProductList from './pages/ProductList';
-import Register from './pages/Register';
 import Login from './pages/Login';
 import {Route,Routes, Navigate} from "react-router-dom"
 import "./index.css";

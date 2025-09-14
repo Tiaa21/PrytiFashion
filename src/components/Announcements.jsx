@@ -13,6 +13,6 @@ const Announcement = styled.div`
 
 export default function Announcements() {
   return (
-    <Announcement>Free Shipping on Orders above 1500Pkr !</Announcement>
+    <Announcement>Free Shipping on Orders above Rp 500.000,- !</Announcement>
   )
 }
