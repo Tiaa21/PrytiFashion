@@ -386,7 +386,7 @@ export const popularProducts = [
     photos: [
       "../images/products/jacket1_1.png",
       "../images/products/jacket1_2.png",
-      "../images/products/jacket1_3.png",
+      "../images/products/jacket1-3.png",
     ],
     reviews: [
       {
@@ -424,7 +424,6 @@ export const popularProducts = [
     photos: [
       "../images/products/shirt5_1.png",
       "../images/products/shirt5_2.png",
-      "../images/products/shirt5_3.png",
     ],
     reviews: [
       {
