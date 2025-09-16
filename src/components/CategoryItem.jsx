@@ -6,13 +6,14 @@ import { mobile } from '../responsive'
 const Container = styled.div`
     flex: 1;
     margin: 3px;
-    height: 70vh;
+    height: 40vh;
     position: relative;
 `
 const Image = styled.img`
    width: 100%;
    height: 100%;
    object-fit: cover;
+   filter: brightness(50%);
    ${mobile({height:"30vh"})}
   
     `
