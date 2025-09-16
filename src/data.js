@@ -2,23 +2,26 @@ export const sliderItems = [
   {
     id: 1,
     img: "../images/home/slider1.jpg",
-    title: "SUMMER SALE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    title: "CASUAL WEAR COLLECTION",
+    desc: "Discover trendy casual outfits for women – from everyday dresses to chic tops. Perfect for your daily style upgrade.",
     bg: "f5fafd",
+    alt: "Casual wear for women – stylish everyday dresses and tops",
   },
   {
     id: 2,
     img: "../images/home/slider3.jpg",
-    title: "AUTUMN COLLECTION",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    title: "FORMAL & OFFICE STYLE",
+    desc: "Elegant blouses, dresses, and suits for professional women. Shop the latest office wear and formal fashion trends.",
     bg: "fcf1ed",
+    alt: "Formal office wear for women – elegant blouses, dresses, and suits",
   },
   {
     id: 3,
     img: "../images/home/slider2.jpg",
-    title: "LOUNGEWEAR LOVE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    title: "LOUNGE & COMFY STYLE",
+    desc: "Stay stylish at home with our loungewear collection – soft, comfortable, and made for relaxing days in style.",
     bg: "fbf0f4",
+    alt: "Loungewear for women – comfortable and stylish home outfits",
   },
 ];
 
@@ -57,7 +60,7 @@ export const popularProducts = [
     sku: "GHT95245AAA",
     tags: ["Women", "Shirt", "Fashion"],
     rating: 4.8,
-    desc: "Soft cotton vintage T-shirt for women.",
+    desc: "A soft cotton vintage T-shirt for women, made from breathable 100% cotton fabric that feels gentle on the skin. Designed with a timeless vintage look, this tee is versatile enough for everyday wear, whether you're running errands, hanging out with friends, or pairing it with jeans for a casual streetwear style. Its relaxed fit ensures comfort throughout the day while keeping your outfit effortlessly stylish.",
     photos: [
       "../images/products/shirt1_1.png",
       "../images/products/shirt1_2.png",
@@ -88,7 +91,7 @@ export const popularProducts = [
     sku: "GHT95245AAA",
     tags: ["Women", "Shirt", "Fashion"],
     rating: 4.9,
-    desc: "Soft cotton tied T-shirt for women.",
+    desc: "A trendy tied T-shirt for women crafted from premium cotton for a soft, breathable feel. The stylish front tie detail adds a modern twist to the classic tee, making it perfect for casual outings, coffee dates, or a laid-back weekend look. Pair it with high-waisted jeans, skirts, or shorts for a chic and versatile outfit suitable for summer or spring days.",
     photos: [
       "../images/products/shirt2_1.png",
       "../images/products/shirt2_2.png",
@@ -101,7 +104,7 @@ export const popularProducts = [
         date: "1 month ago",
         rating: 5,
         comment: "Love it! The fit and fabric are perfect.",
-        images: ["../images/products/shirt1_1.png"],
+        images: ["../images/products/shirt2_1.png"],
       },
     ],
   },
@@ -120,7 +123,7 @@ export const popularProducts = [
     sku: "SHIRT-OSGT-2025",
     tags: ["Unisex", "Shirt", "Casual"],
     rating: 4.7,
-    desc: "Trendy oversized T-shirt with modern graphic print.",
+    desc: "This oversized graphic T-shirt is made from a durable cotton blend that combines softness with long-lasting quality. Featuring a bold modern print, it’s designed for those who love relaxed and streetwear-inspired fashion. Perfect for casual hangouts, concerts, or layering under jackets, the oversized fit gives women a comfortable and trendy look.",
     photos: [
       "../images/products/shirt3_1.png",
       "../images/products/shirt3_2.png",
@@ -151,7 +154,7 @@ export const popularProducts = [
     sku: "SHIRT-SLN-2025",
     tags: ["Men", "Shirt", "Summer"],
     rating: 4.5,
-    desc: "Breathable striped linen shirt for casual summer wear.",
+    desc: "A breathable striped linen shirt designed for men, crafted from lightweight linen fabric that keeps you cool during warm summer days. With its casual yet polished design, this shirt works well for beach vacations, summer parties, or even a relaxed office look. Pair it with shorts for a laid-back vibe or chinos for a smart casual style.",
     photos: [
       "../images/products/shirt4_1.png",
       "../images/products/shirt4_2.png",
@@ -182,7 +185,7 @@ export const popularProducts = [
     sku: "DRS-FLR-2025",
     tags: ["Women", "Dress", "Summer"],
     rating: 4.8,
-    desc: "Lightweight floral dress, perfect for summer outings.",
+    desc: "A lightweight floral summer dress made from soft, flowy fabric that allows maximum comfort while keeping you stylish in warm weather. Its vibrant floral pattern brings a cheerful vibe, perfect for brunch dates, garden parties, or holiday getaways. Designed with a flattering fit, this dress can be styled with sandals for a relaxed look or heels for a more elegant appearance.",
     photos: [
       "../images/products/dress1_1.png",
       "../images/products/dress1_2.png",
@@ -195,7 +198,10 @@ export const popularProducts = [
         date: "1 week ago",
         rating: 5,
         comment: "Love this dress! Perfect for brunch dates.",
-        images: ["../images/products/dress1_2.png", "../images/products/dress1_3.png"],
+        images: [
+          "../images/products/dress1_2.png",
+          "../images/products/dress1_3.png",
+        ],
       },
     ],
   },
@@ -214,7 +220,7 @@ export const popularProducts = [
     sku: "DRS-EVD-2025",
     tags: ["Women", "Dress", "Formal"],
     rating: 4.9,
-    desc: "Elegant long evening dress for special occasions.",
+    desc: "An elegant long evening dress tailored from premium satin-blend fabric, giving it a luxurious sheen and flow. Designed for special occasions like weddings, galas, or formal dinners, this dress hugs the body beautifully while allowing ease of movement. Available in classic colors such as red and black, it’s the perfect statement piece for women who want to stand out with timeless sophistication.",
     photos: [
       "../images/products/dress2_1.png",
       "../images/products/dress2_2.png",
